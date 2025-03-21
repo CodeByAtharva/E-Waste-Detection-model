@@ -123,14 +123,6 @@ runs
 *.trt
 *.onnx
 
-# Image files
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.ico
 
 # Video files
 *.mp4
