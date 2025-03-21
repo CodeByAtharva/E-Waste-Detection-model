@@ -1,0 +1,2 @@
+yolo train task=detect model=yolov9c.pt data="E:/Machine learning/PBL/YOLO/datasets/data.yaml" epochs=100 imgsz=1280 batch=16 device=0
+yolo train task=detect model=yolov9c.pt data="E:/Machine learning/PBL/YOLO/datasets/data.yaml" epochs=10 imgsz=960 batch=16 device=0 workers=4
