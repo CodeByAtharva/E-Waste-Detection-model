@@ -9,6 +9,4 @@ yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best
 E:\Machine learning\PBL\YOLO\OP\first training
 
 
-yolo train model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best.pt" \
-data="E:/Machine learning/PBL/YOLO/datasets/data.yaml" \
-epochs=10 imgsz=960 batch=8 device=0 workers=4
+yolo train model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best.pt" data="E:/Machine learning/PBL/YOLO/datasets/data.yaml" epochs=10 imgsz=640 batch=4 device=0 workers=4
