@@ -7,3 +7,8 @@ E:\Machine learning\PBL\YOLO\runs\detect\train2\weights
 yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best.pt" source=0 imgsz=960 conf=0.5
 yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best.pt" source="E:\Machine learning\PBL\YOLO\OP\first training\test.jpg"
 E:\Machine learning\PBL\YOLO\OP\first training
+
+
+yolo train model="E:/Machine learning/PBL/YOLO/runs/detect/train2/weights/best.pt" \
+data="E:/Machine learning/PBL/YOLO/datasets/data.yaml" \
+epochs=10 imgsz=960 batch=8 device=0 workers=4
