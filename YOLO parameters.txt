@@ -13,6 +13,7 @@ E:\Machine learning\PBL\YOLO\OP\first training
 
 yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train6/weights/best.pt" source=1 save=True
 yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train6/weights/best.pt" source="E:\Machine learning\test.jpg" save=True
+yolo predict model="E:/Machine learning/PBL/YOLO/runs/detect/train6/weights/best.pt" source="E:\Machine learning\test2.jpg" save=True
 
 
 
