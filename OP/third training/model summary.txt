@@ -1,0 +1,76 @@
+Validating runs\detect\train7\weights\best.pt...
+Ultralytics 8.3.94 🚀 Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+YOLOv9c summary (fused): 156 layers, 25,378,615 parameters, 0 gradients, 102.6 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 491/491 [01:12<00:00,  6.80it/s]
+                   all       3923       5897      0.799      0.632      0.708      0.574
+       Air-Conditioner          7          7      0.875      0.429      0.651      0.547
+             Bar-Phone         21         22      0.885      0.818      0.851      0.778
+               Battery        248        338      0.869      0.548       0.77      0.604
+Blood-Pressure-Monitor        123        123      0.985      0.976      0.993      0.975
+                Boiler        120        128      0.936      0.796      0.901      0.665
+           CRT-Monitor          5          6      0.464      0.667      0.466      0.388
+                CRT-TV         17         17      0.423      0.294      0.353      0.303
+            Calculator         31         32      0.844      0.938       0.96      0.855
+      Christmas-Lights          9        283          1          0      0.203     0.0496
+          Clothes-Iron         36         39      0.812      0.884      0.903        0.5
+        Coffee-Machine         37         50      0.832      0.497      0.761      0.463
+     Computer-Keyboard        239        302      0.864      0.642      0.795       0.62
+        Computer-Mouse        299        338      0.886      0.722      0.835      0.577
+      Cooled-Dispenser         22         42      0.812      0.823      0.813      0.689
+       Cooling-Display        197        197      0.966      0.997      0.994      0.973
+            Desktop-PC         25         26      0.632      0.529       0.63      0.522
+  Digital-Oscilloscope         69         81      0.958      0.864      0.886      0.741
+            Dishwasher         33         35      0.679      0.743       0.72      0.437
+                 Drone         61         74      0.979      0.878      0.973      0.764
+      Electric-Bicycle          5          5      0.825          1      0.995       0.96
+       Electric-Guitar        262        271      0.981      0.982      0.985      0.911
+   Electronic-Keyboard         81         92      0.932      0.957      0.974      0.805
+           Exhaust-Fan          9          9      0.831      0.667      0.844      0.655
+            Flashlight        120        120      0.917      0.967      0.967       0.91
+    Flat-Panel-Monitor        112        149       0.74      0.651      0.697      0.558
+         Flat-Panel-TV         50         55      0.679      0.527      0.668      0.533
+             Floor-Fan         16         19          1      0.904      0.986      0.744
+               Freezer          3          3      0.521      0.667      0.672      0.603
+         Glucose-Meter         99        100       0.98      0.961      0.987      0.932
+                   HDD        206        215          1     0.0248      0.277       0.26
+            Hair-Dryer          1          1          0          0          0          0
+             Headphone          2          3      0.354      0.667      0.456      0.341
+              LED-Bulb         15         15      0.808      0.933      0.942      0.754
+                Laptop        268        323      0.899      0.823      0.881      0.779
+             Microwave         77         83      0.907      0.708      0.778      0.661
+          Music-Player         40         40      0.847      0.975      0.975      0.857
+             Neon-Sign          2          2          1          0      0.252      0.109
+        Network-Switch         49         49          0          0          0          0
+  Non-Cooled-Dispenser          5          6      0.741      0.333      0.444      0.415
+                  Oven        179        207      0.898       0.71      0.855      0.613
+                   PCB         88        287       0.85      0.276      0.561      0.343
+Patient-Monitoring-System          7          7      0.766          1       0.96      0.717
+    Photovoltaic-Panel        210        255      0.859      0.738      0.821      0.665
+         PlayStation-5          3          3          1      0.446      0.913      0.673
+         Power-Adapter          6          8      0.699        0.5      0.498      0.379
+               Printer          5          5      0.912        0.4      0.614      0.564
+             Projector         43         43      0.888      0.953      0.962      0.837
+            Range-Hood         43         44       0.66      0.682      0.677      0.488
+          Refrigerator        106        135      0.917      0.573      0.751      0.665
+          Rotary-Mower         50         54      0.962       0.94      0.977      0.764
+                Router         57         58      0.787      0.983      0.952      0.896
+                   SSD          5          5          1      0.345      0.862      0.671
+                Server         72        108       0.63      0.398      0.524      0.352
+            Smartphone        173        222      0.725      0.901      0.863      0.752
+        Smoke-Detector         37         38      0.905      0.895       0.95      0.814
+               Speaker          1          2          1          0          0          0
+                 Stove         42         45      0.699      0.756      0.797      0.551
+Straight-Tube-Fluorescent-Lamp         70        311       0.95       0.37      0.681      0.332
+           Street-Lamp         35         39      0.872      0.872      0.884      0.611
+     TV-Remote-Control         42         49      0.854      0.429      0.552        0.5
+            Table-Lamp         22         22      0.648      0.752      0.765      0.645
+                Tablet          3          3          1          0     0.0332     0.0251
+         Telephone-Set          4          4      0.448       0.75      0.633       0.49
+               Toaster          7          7      0.357      0.399      0.473      0.404
+          Tumble-Dryer          1          5          1          0          0          0
+       USB-Flash-Drive         25         36      0.491      0.917      0.583       0.51
+        Vacuum-Cleaner          1          1      0.741          1      0.995      0.995
+       Washing-Machine        147        191      0.952      0.833      0.915      0.807
+         Xbox-Series-X          3          3          1          0      0.582      0.316
+Speed: 0.3ms preprocess, 13.2ms inference, 0.0ms loss, 1.6ms postprocess per image
+Results saved to runs\detect\train7
