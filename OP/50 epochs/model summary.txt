@@ -1,0 +1,29 @@
+Validating runs\detect\train9\weights\best.pt...
+Ultralytics 8.3.94 🚀 Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+YOLOv9c summary (fused): 156 layers, 25,336,210 parameters, 0 gradients, 102.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 201/201 [00:44<00:00,  4.50it/s]
+                   all       1607       2594      0.884      0.861      0.889      0.727
+               battery         70        133       0.91      0.895      0.918      0.835
+                   can         44         73       0.86      0.844      0.883      0.692
+        cardboard_bowl         94         95      0.877      0.937      0.948       0.83
+         cardboard_box         99        209      0.899      0.768      0.854      0.652
+chemical_plastic_bottle         92        111      0.995          1      0.995      0.905
+chemical_plastic_gallon         65         83      0.987      0.911      0.967      0.824
+    chemical_spray_can         74        130      0.867        0.9      0.882      0.704
+            light_bulb         45         54      0.891      0.963       0.98      0.812
+          paint_bucket         30         30      0.984          1      0.995      0.781
+           plastic_bag         68        107      0.846      0.766      0.868      0.657
+        plastic_bottle        102        135      0.983      0.864      0.918      0.712
+    plastic_bottle_cap        135        150      0.786      0.903      0.897      0.745
+           plastic_box        113        154      0.837      0.786      0.863      0.735
+       plastic_cultery         41         65      0.936      0.923      0.933      0.761
+           plastic_cup        106        148      0.614      0.581      0.486      0.401
+       plastic_cup_lid        112        122      0.747      0.653      0.674      0.577
+       reuseable_paper         55         95      0.803      0.779      0.846      0.673
+           scrap_paper        108        178      0.976      0.904      0.948      0.729
+         scrap_plastic         72        102      0.855      0.864       0.92      0.745
+             snack_bag        123        142      0.993      0.981      0.988      0.878
+                 stick        163        164      0.967      0.982       0.99      0.843
+                 straw         89        114      0.841      0.745      0.814      0.514
+Speed: 0.4ms preprocess, 13.6ms inference, 0.0ms loss, 3.5ms postprocess per image
+Results saved to runs\detect\train9
