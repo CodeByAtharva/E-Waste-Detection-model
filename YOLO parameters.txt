@@ -23,3 +23,7 @@ yolo train model="E:/Machine learning/PBL/YOLO/runs/detect/train6/weights/best.p
 
 
 yolo train model="E:/Machine learning/PBL/YOLO/runs/detect/train7/weights/best.pt" data="E:\Machine learning\PBL\YOLO\datasets\DS2\data.yaml" epochs=10 imgsz=640 batch=4 device=0 workers=4
+
+yolo data analysis data="E:\Machine learning\PBL\YOLO\datasets\DS2\data.yaml"
+yolo val model="E:/Machine learning/PBL/YOLO/runs/detect/train8/weights/best.pt" data="E:\Machine learning\PBL\YOLO\datasets\DS2\data.yaml"
+
