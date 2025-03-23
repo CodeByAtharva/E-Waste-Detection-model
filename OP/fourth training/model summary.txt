@@ -1,0 +1,27 @@
+YOLOv9c summary (fused): 156 layers, 25,336,210 parameters, 0 gradients, 102.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 201/201 [00:40<00:00,  4.93it/s]
+                   all       1607       2594      0.895      0.848      0.884      0.714
+               battery         70        133      0.926      0.849      0.904      0.799
+                   can         44         73      0.763      0.795      0.796      0.629
+        cardboard_bowl         94         95      0.946      0.926      0.946      0.825
+         cardboard_box         99        209      0.912      0.761      0.881      0.656
+chemical_plastic_bottle         92        111      0.986      0.991      0.994      0.888
+chemical_plastic_gallon         65         83      0.974      0.896      0.971      0.804
+    chemical_spray_can         74        130      0.891      0.885      0.921      0.686
+            light_bulb         45         54      0.945      0.944      0.984      0.778
+          paint_bucket         30         30      0.984          1      0.995       0.78
+           plastic_bag         68        107      0.867      0.785      0.856      0.655
+        plastic_bottle        102        135      0.977      0.852      0.911      0.698
+    plastic_bottle_cap        135        150      0.787      0.887        0.9      0.751
+           plastic_box        113        154      0.868      0.753      0.843      0.718
+       plastic_cultery         41         65      0.967      0.916      0.931      0.743
+           plastic_cup        106        148      0.673      0.501      0.492      0.428
+       plastic_cup_lid        112        122      0.743       0.64       0.67      0.561
+       reuseable_paper         55         95      0.879      0.768       0.83      0.654
+           scrap_paper        108        178      0.971       0.91      0.943      0.722
+         scrap_plastic         72        102      0.838      0.863      0.908       0.73
+             snack_bag        123        142      0.998      0.986      0.987      0.877
+                 stick        163        164      0.963      0.988       0.99      0.812
+                 straw         89        114      0.836      0.758      0.803      0.513
+Speed: 0.4ms preprocess, 13.4ms inference, 0.0ms loss, 2.8ms postprocess per image
+Results saved to runs\detect\train8
